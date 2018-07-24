@@ -7,6 +7,10 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miht/murrmurr.git"
+  },
   "author": "Leif T. Sundkvist, Anders Eriksson",
   "license": "ISC",
   "devDependencies": {
