@@ -1,0 +1,60 @@
+@@font-face {
+    font-family:"Nature Beauty";
+    src:url('fonts/nature_beauty/Nature Beauty Personal Use.ttf') format('truetype');
+}
+
+#logo {
+    font-size: 28px;
+    font-family: "Nature Beauty";
+}
+
+body {
+    font-family:helvetica-neue;
+    background:#1E2D39;
+}
+
+p {
+    color:#ffffff;
+}
+
+.header {
+    float: top;
+}
+
+#list_title {
+    font-size:18px;
+
+}
+
+#label_no_of_sounds {
+    font-size:10px;
+}
+
+#mainpanel {
+    height:250px;
+}
+
+.sidebar {
+    align:top;
+    float: left;
+    width:150px;
+    flex-direction: column;
+    border-right: solid #ffffff;
+}
+
+#sidebar_title {
+    font-size:20px;
+}
+
+.listpanel {
+}
+
+.coverpanel {
+    align:top;
+    float: left;
+}
+
+.soundlistpanel {
+    float: left;
+    background: yellow;
+}

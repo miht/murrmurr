@@ -3,11 +3,38 @@
     <head>
       <meta charset="UTF-8">
       <title>MurrMurr</title>
+      <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
-      <h1>Hello World!</h1>
-      We are using node <script>document.write(process.versions.node)</script>,
-      Chrome <script>document.write(process.versions.chrome)</script>,
-      and Electron <script>document.write(process.versions.electron)</script>.
+      <div id="header">
+          <p id="logo">MurrMurr</p>
+      </div>
+      <div id="mainpanel">
+          <div class="sidebar">
+              <p id="sidebar_title">My moods</p>
+              <div id="listnavigator">
+                  <div class="listitem">
+                      <p class="listitemtitle">List 1</p>
+                      <p class="listitemtitle">List 2</p>
+                      <p class="listitemtitle">List 3</p>
+                  </div>
+              </div>
+          </div>
+          <div class="listpanel">
+              <div class="coverpanel">
+                  <img src="images/list_placeholder.png" alt="List placeholder" height="200" width="200">
+                  <p id="list_title">TITLE</p>
+                  <p id="label_no_of_sounds">3 Sounds</p>
+              </div>
+              <div class="soundlistpanel">
+                  <!-- <img src="images/list_placeholder.png" alt="List placeholder" height="100" width="100"> -->
+                  <p>Sound 1</p>
+                  <p>Sound 2</p>
+
+              </div>
+
+          </div>
+      </div>
+
     </body>
   </html>

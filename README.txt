@@ -13,4 +13,5 @@ Audio:
     Soarer_North_Sea.wav
     YleArkisto_Fireplace.wav
     tomc1985_Outside_rain_light1.wav
+    thunder.wav
     masmxd_Game_controller.mp3
