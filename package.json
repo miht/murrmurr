@@ -2,7 +2,7 @@
   "name": "murrmurr",
   "version": "1.0.0",
   "description": "app that plays relaxing ambient sounds in the background",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
