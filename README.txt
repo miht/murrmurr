@@ -10,7 +10,9 @@ Icons:
     Coffee
 
 Audio:
-    Soarer_North_Sea.wav
-    YleArkisto_Fireplace.wav
-    tomc1985_Outside_rain_light1.wav
-    masmxd_Game_controller.mp3
+    soarer_north-sea.wav
+    yle-arkisto_fireplace.wav
+    nikitralala_frogs-and-birds.wav
+    tomc1985_outside-rain-light1.wav
+    thunder.wav
+    masmxd_game-controller.mp3
