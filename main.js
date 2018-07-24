@@ -14,6 +14,10 @@ function createWindow() {
 }
 
 function createMenu() {
+  /*
+   * TODO: emulate default macOS menu behaviors
+   * https://electronjs.org/docs/api/menu#menusendactiontofirstresponderaction-macos
+   */
   var menu = Menu.buildFromTemplate([
     {
       label: 'Menu',
