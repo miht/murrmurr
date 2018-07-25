@@ -1,5 +1,5 @@
 const { app, BrowserWindow, Menu } = require('electron')
-
+//const { Howl } =  require('howler')
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({ width: 800, height: 600 })
@@ -9,8 +9,8 @@ function createWindow() {
 
   // open Developer Tools
   win.webContents.openDevTools();
-
   createMenu();
+  
 }
 
 function createMenu() {
@@ -18,7 +18,7 @@ function createMenu() {
    * TODO: emulate default macOS menu behaviors
    * https://electronjs.org/docs/api/menu#menusendactiontofirstresponderaction-macos
    */
-  var menu = Menu.buildFromTemplate([
+  const menu = Menu.buildFromTemplate([
     {
       label: 'Menu',
       submenu: [
@@ -38,6 +38,12 @@ function createMenu() {
           label: 'Quit MurrMurr',
           accelerator: 'CmdOrCtrl+Q',
           click() { app.quit() },
+        },
+        {
+          label: 'Test sound',
+          click() { 
+              testSound();
+          }
         }
       ]
     }
@@ -46,4 +52,8 @@ function createMenu() {
   Menu.setApplicationMenu(menu);
 }
 
+
+const testSound = () => win.webContents.executeJavaScript(`document.getElementById('A').play()`);
+
 app.on('ready', createWindow)
+
