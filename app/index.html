@@ -4,32 +4,50 @@
       <meta charset="UTF-8">
       <title>MurrMurr</title>
       <link rel="stylesheet" href="./css/main.css">
+      <link rel="stylesheet" href="./css/widgets.css">
+      <link rel="stylesheet" href="./css/placeholders.css">
+
     </head>
     <body>
       <div id="header">
-          <p id="logo">MurrMurr</p>
+          <p id="logo">CUX</p>
       </div>
       <div id="mainpanel">
           <div class="sidebar">
               <p id="sidebar_title">My moods</p>
-              <div id="listnavigator">
-                  <div class="listitem">
-                      <p class="listitemtitle">List 1</p>
-                      <p class="listitemtitle">List 2</p>
-                      <p class="listitemtitle">List 3</p>
-                  </div>
-              </div>
+              <table class="table_lists">
+                  <tr class="listitem">
+                      <td class="listitemtitle">List 1</td>
+                  </tr>
+                  <!--  placeholders -->
+                  <tr class="listitem">
+                      <td class="listitemtitle">List 1</td>
+                  </tr>
+                  <tr class="listitem">
+                      <td class="listitemtitle">List 1</td>
+                  </tr>
+              </table>
           </div>
+          <div id="sidebar_separator"></div>
           <div class="listpanel">
               <div class="coverpanel">
                   <img src="images/list_placeholder.png" alt="List placeholder" height="200" width="200">
                   <p id="list_title">Studying</p>
                   <p id="label_no_of_sounds">4 Sounds</p>
+                  <div id="play_panel">
+                      <button id="button_playpause" type="button">
+                      </button>
+                        <input type="range" min="1" max="100" value="50" class="slider" id="volume_slider">
+                  </div>
               </div>
-              <div class="soundlistpanel">
+              <table class="table_sounds">
                   <!-- <img src="images/list_placeholder.png" alt="List placeholder" height="100" width="100"> -->
-                  <p>Sound 1</p>
-                  <p>Sound 2</p>
+                  <tr class="sound_placeholder">
+                      <!--  placeholders -->
+                      <td id="sound_icon_placeholder">S</td>
+                      <td width="15px"></td>
+                      <td id="sound_title_placeholder">Sound title</td>
+                  </tr>
 
               </div>
 

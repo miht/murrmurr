@@ -1,0 +1,26 @@
+
+.sound_placeholder {
+    height:50px;
+    width:200px;
+    color:#ffffff;
+}
+
+#sound_icon_placeholder {
+    font-size:50px;
+    float:left;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#sound_title_placeholder {
+    font-size:25px;
+    float:left;
+    line-height: 50px;
+
+    /* margin-top: auto;
+    margin-bottom: auto; */
+
+    vertical-align: middle;
+}

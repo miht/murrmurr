@@ -3,14 +3,21 @@
     src:url('fonts/nature_beauty/Nature Beauty Personal Use.ttf') format('truetype');
 }
 
-#logo {
-    font-size: 28px;
-    font-family: "Nature Beauty";
+html {
+    height:600px;
+    width:800px;
 }
 
 body {
+    height:100%;
     font-family:"Helvetica Neue";
     background:#1E2D39;
+}
+
+#logo {
+    margin-left: 15px;
+    font-size: 28px;
+    font-family: "Helvetica Neue";
 }
 
 p {
@@ -32,30 +39,63 @@ p {
     margin-top:2px;
 }
 
+#sidebar_separator {
+    height:50%;
+    float: left;
+    border-left:1px solid #ffffff;
+}
+
 #mainpanel {
-    height:250px;
+    height:100%;
+    width:100%;
+}
+
+#play_panel {
+    height:200px;
 }
 
 .sidebar {
-    align:top;
+    margin-left: 15px;
+    margin-right: 25px;
     float: left;
-    width:150px;
-    border-right: solid #ffffff;
 }
 
 #sidebar_title {
+    margin-top: 0px;
     font-size:20px;
 }
 
 .listpanel {
+    float:left;
+    width:500px;
+}
+
+tr {
+    color:#ffffff;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+tr:hover {
+    opacity: 1;
 }
 
 .coverpanel {
-    align:top;
     float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    width:200px;
 }
 
 .soundlistpanel {
     float: left;
+    width:200px;
     background: yellow;
+    background-opacity:50%;
+}
+
+.table_sounds {
+    margin-left: 100px;
 }
