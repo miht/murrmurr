@@ -1,14 +1,12 @@
 #button_playpause {
-    display:inline-block;
-    float: left;
-    background:url("../icons/play-button.svg") no-repeat;
-    margin-top:auto;
-    margin-bottom:auto;
-    width:45px;
-    height:45px;
+    /* float: left; */
+    background:url("../icons/play-arrow-gray-md.png");
+    background-size:cover;
+
+    width:30px;
+    height:30px;
     fill:#ffffff;
     border: none;
-
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
@@ -25,13 +23,12 @@
 }
 
 .slider {
+    vertical-align: middle;
+    float:right;
     -webkit-appearance: none;
-    width: 60%;
     height: 5px;
     background: #d3d3d3;
     outline: none;
-    margin-top: auto;
-    margin-bottom: auto;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
