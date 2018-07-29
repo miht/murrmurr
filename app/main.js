@@ -1,4 +1,6 @@
 const { app, BrowserWindow, Menu } = require('electron')
+const React = require('react')
+
 //const { Howl } =  require('howler')
 function createWindow() {
   // Create the browser window.
@@ -10,7 +12,11 @@ function createWindow() {
   // open Developer Tools
   win.webContents.openDevTools();
   createMenu();
-  
+
+}
+
+function testFunction() {
+    alert('click');
 }
 
 function createMenu() {
@@ -41,7 +47,7 @@ function createMenu() {
         },
         {
           label: 'Test sound',
-          click() { 
+          click() {
               testSound();
           }
         }
@@ -56,4 +62,3 @@ function createMenu() {
 const testSound = () => win.webContents.executeJavaScript(`document.getElementById('A').play()`);
 
 app.on('ready', createWindow)
-

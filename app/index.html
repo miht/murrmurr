@@ -8,6 +8,8 @@
       <link rel="stylesheet" href="./css/widgets.css">
       <link rel="stylesheet" href="./css/placeholders.css">
 
+      <script src="main.js"></script>
+
     </head>
     <body>
       <div id="header">
@@ -37,13 +39,12 @@
                   <p id="list_title">Studying</p>
                   <p id="label_no_of_sounds">4 Sounds</p>
                   <table id="play_panel">
-                      <tr><td><button id="button_playpause" type="button">
+                      <tr><td><button id="button_playpause" type="button" onClick="testFunction();">
                       </button>
                   </td>
                   <td>
                         <input type="range" min="1" max="100" value="50" class="slider" id="volume_slider">
                     </td></tr>
-
                   </table>
               </div>
               <table class="table_sounds">
