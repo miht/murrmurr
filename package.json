@@ -1,24 +1,23 @@
 {
   "name": "murrmurr",
-  "version": "1.0.0",
   "description": "app that plays relaxing ambient sounds in the background",
-  "main": "app/main.js",
   "company": "Creative UX",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "main": "src/electron-starter.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/miht/murrmurr.git"
-  },
-  "author": "Leif T. Sundkvist, Anders Eriksson",
-  "license": "ISC",
   "devDependencies": {
     "electron": "^2.0.5"
-  },
-  "dependencies": {
-    "npm": "^6.2.0",
-    "react": "^16.4.1"
   }
 }
